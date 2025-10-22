@@ -24,3 +24,20 @@ img{
 }
 
 /*Fin del reset?_______*/
+
+body{
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 13%;
+
+}
+
+.todo{
+    background-color: rgb(209, 134, 134);
+    width: 30em;
+    height: 15em;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin:  auto;
+    
+}   
