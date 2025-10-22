@@ -1,0 +1,46 @@
+    /*
+1ero_Reset
+*/
+
+html,body,h1,h2,h3,h4,h5,h6,p,ol,ul,li,address,form{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+ol{
+    margin-left: 1.4em;
+    list-style: decimal;
+}
+
+ul{
+    margin-left: 1.4em;
+    list-style: square;
+}
+
+img{
+    border: 0;
+}
+
+/*Fin del reset?_______*/
+
+
+
+header{
+    background-color: #666;
+    height: 150px;
+    width: 100%;
+}
+
+main{
+    background-color: #999;
+    height: 400px;
+    width: 100%;
+}
+
+footer{
+    background-color: #333;
+    height: 160px;
+    width: 100%;
+}
