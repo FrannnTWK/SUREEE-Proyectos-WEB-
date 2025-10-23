@@ -11,24 +11,31 @@
     <div class="todo">
         <form>
             <h2>Inicio De Sesión</h2>
-            <input type="text" placeholder="Username" required>
-            <input type="password" placeholder="Password" required>
+
+            <div class="campos">
+            <input class="datos" type="text" placeholder="Username" required>
+            <input class="datos" type="password" placeholder="Password" required>
+            </div>
+
         </form>
 
-        <div>
+        <div class="espacio">
+        <div class="recuerdame">
             <input type="checkbox" id="remember" required>
-            <label for="remember">Recuérdame</label>
+            <label id="recordar" for="remember">Recuérdame</label>
         </div>
 
         <div class="olvidado">
             <a href="#">He olvidado mi contraseña</a>
         </div>
-
-        <div class="boton">
-            <button type="submit">Iniciar Sesión</button>
         </div>
 
-        <div>
+
+        <div class="boton">
+            <button id="botoncito" type="submit">Iniciar Sesión</button>
+        </div>
+
+        <div class="register">
             <p>¿No tienes una cuenta? <a href="#">Regístrate</a></p>
         </div>
     </div>
