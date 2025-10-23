@@ -29,16 +29,26 @@ body{
     text-align: center;
     font-family: sans-serif;
     padding-top: 13%;
+    background: url(Utilidades/fondo\ del\ login.jpg) ;
+    background-position: top;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
 
 
 }
 
 .todo{
-    background-color: rgb(209, 134, 134);
+    background-color: transparent #ffffff;
     width: 30em;
     height: 15em;
     border: 2px solid black;
     border-radius: 10px;
     margin:  auto;
-    
+    display: block;
+    ;
+
 }   
+
