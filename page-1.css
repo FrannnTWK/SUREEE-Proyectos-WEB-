@@ -55,9 +55,10 @@ h1{
 .buscador{
     width: 50vw; /*700px*/
     height: 40px;
-    background: rgb(169, 162, 162);
-    border: 3px solid rgb(0, 0, 0);
-    border-radius: 20px;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    
     color: beige;
     padding: 0px 10px;
     cursor: pointer;
