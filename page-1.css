@@ -1,0 +1,121 @@
+    /*
+1ero_Reset
+*/
+
+html,body,h1,h2,h3,h4,h5,h6,p,ol,ul,li,address,form{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+ol{
+    margin-left: 1.4em;
+    list-style: decimal;
+}
+
+ul{
+    margin-left: 1.4em;
+    list-style: square;
+}
+
+img{
+    border: 0;
+}
+
+/*Fin del reset?_______*/
+
+
+
+
+*{
+    font-family: poppins;
+}
+
+header{
+    background: rgb(202, 110, 110);
+}
+
+.header-div{
+    display: flex;
+    padding: 10px 50px;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 100%;
+    background: beige;
+    
+
+}
+
+h1{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.buscador{
+    width: 50vw; /*700px*/
+    height: 40px;
+    background: rgb(169, 162, 162);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    color: beige;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: rgb(0, 0, 0);  
+}
+
+button{
+    cursor: pointer;
+}
+
+.lupa{
+    
+    font-size: 25px;
+    border: none;
+    background: transparent;
+}
+
+
+
+.brillo{
+    font-size: 25px;
+    background: transparent;
+    border: none;
+    margin-right: 30px;
+}
+
+.notificacion{
+    font-size: 25px;
+    background: transparent;
+    border: none;
+}
+
+.ubicacion{
+    font-size: 25px;
+    background: transparent;
+    border: none;
+}
+
+.like{
+    font-size: 25px;
+    background: transparent;
+    border: none;
+}
+
+.carrito{
+    font-size: 25px;
+    background: transparent;
+    border: none;
+}
+
+
+.user{
+    font-size: 35px;
+    margin-left: 50px;
+    padding: 0%;
+    background: transparent;
+    border: none;
+}
