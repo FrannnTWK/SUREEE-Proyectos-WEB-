@@ -23,6 +23,10 @@ img{
     border: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 /*Fin del reset?_______*/
 
 
@@ -32,8 +36,12 @@ img{
     font-family: poppins;
 }
 
+body{
+    background: rgb(0, 0, 0);
+}
+
 header{
-    background: rgb(202, 110, 110);
+    background: rgb(131, 131, 131);
 }
 
 .header-div{
@@ -42,7 +50,8 @@ header{
     justify-content: space-between;
     margin: auto;
     max-width: 100%;
-    background: beige;
+    background: rgb(0, 0, 0);
+    color: #ffffff;
     
 
 }
@@ -57,15 +66,18 @@ h1{
     height: 40px;
     background: transparent;
     border: none;
-    border-bottom: 3px solid rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(255, 255, 255);
     
-    color: beige;
     padding: 0px 10px;
     cursor: pointer;
 }
 
 ::placeholder{
-    color: rgb(0, 0, 0);  
+    color: rgb(255, 255, 255);  
+}
+
+.input-div{
+    color: #ffffff;
 }
 
 button{
@@ -77,6 +89,7 @@ button{
     font-size: 25px;
     border: none;
     background: transparent;
+    color: #ffffff;
 }
 
 
@@ -86,30 +99,35 @@ button{
     background: transparent;
     border: none;
     margin-right: 30px;
+    color: rgb(131, 131, 131);
 }
 
 .notificacion{
     font-size: 25px;
     background: transparent;
     border: none;
+    color: #ffffff;
 }
 
 .ubicacion{
     font-size: 25px;
     background: transparent;
     border: none;
+    color: #ffffff;
 }
 
 .like{
     font-size: 25px;
     background: transparent;
     border: none;
+    color: #ffffff;
 }
 
 .carrito{
     font-size: 25px;
     background: transparent;
     border: none;
+    color: #ffffff;
 }
 
 
@@ -119,4 +137,39 @@ button{
     padding: 0%;
     background: transparent;
     border: none;
+    color: #ffffff;
 }
+
+
+/*parte de apartados*/
+
+
+.nav-div{
+    width: 80%;
+    margin: auto;
+}
+
+.li-de-apartados{
+    list-style: none;
+    
+}
+
+.ul-de-apartados{
+    padding: 0 20px ;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+
+.apartados{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    color: #ffffff;
+    
+
+}
+
+/*Parte del main*/
+
